@@ -96,10 +96,3 @@ Adicione suas notas no arquivo `aulas/aula-02.md` e envie um pull request (se fo
 
 -----
 
-### Licença
-
-Este repositório contém materiais de estudo pessoais.
-Verifique os direitos autorais dos materiais utilizados antes de compartilhar publicamente.
-
-```
-```
