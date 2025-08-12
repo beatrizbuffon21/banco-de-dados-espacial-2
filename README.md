@@ -70,7 +70,7 @@ banco_de_dados_espacial_2/
 ├── projetos/     # Trabalhos práticos e estudos de caso
 ├── dados/        # Shapefiles, GeoJSON (se permitido)
 └── README.md     # Este arquivo
-
+```
 -----
 
 ### Como Utilizar
@@ -78,11 +78,11 @@ banco_de_dados_espacial_2/
 Clone o repositório:
 ```bash
 git clone https://github.com/SEU_USUARIO/banco_de_dados_espacial_2.git
-
+```
 Crie uma branch por aula ou atividade:
 ```bash
 git checkout -b aula-02-notas
-
+```
 
 Adicione suas notas no arquivo `aulas/aula-02.md` e envie um pull request (se for colaborativo).
 
