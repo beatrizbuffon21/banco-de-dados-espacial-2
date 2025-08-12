@@ -52,7 +52,7 @@ WHERE ST_DWithin(
     ST_SetSRID(ST_MakePoint(lon, lat), 4326)::geography,
     1000
 );
-
+```
 
 ### Ferramentas e Tecnologias
 * **Banco de dados:** PostgreSQL + PostGIS
