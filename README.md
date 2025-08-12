@@ -94,5 +94,9 @@ git checkout -b aula-02-notas
 
 Adicione suas notas no arquivo `aulas/aula-02.md` e envie um pull request (se for colaborativo).
 
------
+---
+
+### Conecte-se comigo
+* **LinkedIn:** [Beatriz Woos Buffon](https://www.linkedin.com/in/beatriz-woos-buffon-102ab5191/)
+* **Portfólio:** ([link_do_seu_portfolio](https://beatrizbuffon21.github.io/))
 
