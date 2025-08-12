@@ -1,9 +1,3 @@
-Perfeito.
-Vou montar pra você um **README avançado, limpo, sem emojis**, mas com aqueles **badges clicáveis** no topo para PostgreSQL, PostGIS, QGIS, SQL e até UFSM, usando Shields.io, de forma que já fique com uma cara mais profissional no GitHub.
-
-Segue:
-
-````markdown
 # Banco de Dados Espaciais 2 — UFSM
 
 [![UFSM](https://img.shields.io/badge/UFSM-Universidade%20Federal%20de%20Santa%20Maria-blue)](https://www.ufsm.br)
@@ -58,7 +52,7 @@ WHERE ST_DWithin(
     ST_SetSRID(ST_MakePoint(lon, lat), 4326)::geography,
     1000
 );
-````
+
 
 ---
 
