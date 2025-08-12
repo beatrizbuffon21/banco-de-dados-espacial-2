@@ -75,3 +75,4 @@ insert into marin(mid, status, idade) values(3, 0, 40);
 update reserva set bid = 300;
 
 
+
