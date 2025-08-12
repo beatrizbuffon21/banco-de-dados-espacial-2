@@ -54,54 +54,44 @@ WHERE ST_DWithin(
 );
 
 
----
-
-## Ferramentas e Tecnologias
-
-* **Banco de dados:** [PostgreSQL](https://www.postgresql.org/) + [PostGIS](https://postgis.net/)
-* **SIG:** [QGIS](https://qgis.org/)
+### Ferramentas e Tecnologias
+* **Banco de dados:** PostgreSQL + PostGIS
+* **SIG:** QGIS
 * **Linguagens:** SQL
 * **Outros:** pgAdmin, ogr2ogr
 
 ---
 
-## Estrutura do Repositório
-
-```
+### Estrutura do Repositório
 banco_de_dados_espacial_2/
 ├── aulas/        # Notas e materiais por aula
 ├── scripts/      # Códigos SQL e scripts auxiliares
 ├── projetos/     # Trabalhos práticos e estudos de caso
 ├── dados/        # Shapefiles, GeoJSON (se permitido)
 └── README.md     # Este arquivo
-```
 
----
+-----
 
-## Como Utilizar
+### Como Utilizar
 
-* Clone o repositório:
+Clone o repositório:
 
-  ```bash
-  git clone https://github.com/SEU_USUARIO/banco_de_dados_espacial_2.git
-  ```
-* Crie uma branch por aula ou atividade:
+git clone [https://github.com/SEU_USUARIO/banco_de_dados_espacial_2.git](https://github.com/SEU_USUARIO/banco_de_dados_espacial_2.git)
 
-  ```bash
-  git checkout -b aula-02-notas
-  ```
-* Adicione suas notas no arquivo `aulas/aula-02.md` e envie um pull request (se for colaborativo).
 
----
+Crie uma branch por aula ou atividade:
 
-## Licença
+git checkout -b aula-02-notas
+
+
+Adicione suas notas no arquivo `aulas/aula-02.md` e envie um pull request (se for colaborativo).
+
+-----
+
+### Licença
 
 Este repositório contém materiais de estudo pessoais.
-Verifique direitos autorais dos materiais utilizados antes de compartilhar publicamente.
+Verifique os direitos autorais dos materiais utilizados antes de compartilhar publicamente.
 
 ```
-
-Se você quiser, eu já posso também criar **o arquivo `aulas/aula-02.md` no mesmo padrão profissional** para você só colar o conteúdo quando me passar suas anotações.  
-
-Quer que eu já te prepare esse `aula-02.md` no formato avançado?
 ```
