@@ -73,11 +73,10 @@ Repositório com materiais, anotações e exercícios da disciplina **Banco de D
 ### Estrutura do Repositório
 ```bash
 banco_de_dados_espacial_2/
-├── aulas/              # Materiais e arquivos organizados por aula (ex: aula01, aula02, etc.)
-│   ├── aulaXX/         # Pasta de uma aula específica
-│   │   ├── arquivos/   # Arquivos de dados (.csv) e PDFs
-│   │   ├── exemplo/    # Bancos de dados de exemplo e scripts SQL
-│   │   └── exercicio/  # PDFs, scripts SQL das atividades práticas e banco de dados
+├── aulaXX/         # Pasta de uma aula específica
+│   ├── arquivos/   # Arquivos de dados (.csv) e PDFs
+│   ├── exemplo/    # Bancos de dados de exemplo e scripts SQL
+│   └── exercicio/  # PDFs, scripts SQL das atividades práticas e banco de dados
 └── README.md
 ```
 
