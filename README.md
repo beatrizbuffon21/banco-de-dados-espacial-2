@@ -16,7 +16,6 @@ Repositório com materiais, anotações e exercícios da disciplina **Banco de D
 | :--- | :--- |
 | **Curso** | 081.CPSM - Curso Superior de Tecnologia de Geoprocessamento |
 | **Disciplina** | DPADP0264 - BANCO DE DADOS ESPACIAIS II |
-| **Turma** | 10 |
 | **Carga Horária** | 60h |
 | **Docente** | MARINÊZ DA SILVA (Responsável Principal) |
 | **Objetivo** | Implementar funções e gatilhos. Importar e exportar outros formatos de dados espaciais para o banco de dados geográfico. Integrar banco de dados geográfico com Sistemas de Informação Geográfica. |
