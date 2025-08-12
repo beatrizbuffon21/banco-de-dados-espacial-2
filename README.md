@@ -98,5 +98,5 @@ Adicione suas notas no arquivo `aulas/aula-02.md` e envie um pull request (se fo
 
 ### Conecte-se comigo
 * [Linkedin](https://www.linkedin.com/in/beatriz-woos-buffon-102ab5191/)
-* [Pórtfólio]([link_do_seu_portfolio](https://beatrizbuffon21.github.io/))
+* [Pórtfólio]([link_do_seu_portfolio](https://beatrizbuffon21.github.io/)
 
