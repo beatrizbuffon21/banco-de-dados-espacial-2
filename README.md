@@ -63,6 +63,7 @@ WHERE ST_DWithin(
 ---
 
 ### Estrutura do Repositório
+```bash
 banco_de_dados_espacial_2/
 ├── aulas/        # Notas e materiais por aula
 ├── scripts/      # Códigos SQL e scripts auxiliares
@@ -75,12 +76,11 @@ banco_de_dados_espacial_2/
 ### Como Utilizar
 
 Clone o repositório:
-
-git clone [https://github.com/SEU_USUARIO/banco_de_dados_espacial_2.git](https://github.com/SEU_USUARIO/banco_de_dados_espacial_2.git)
-
+```bash
+git clone https://github.com/SEU_USUARIO/banco_de_dados_espacial_2.git
 
 Crie uma branch por aula ou atividade:
-
+```bash
 git checkout -b aula-02-notas
 
 
