@@ -1,16 +1,16 @@
 -- exerc2 ---------------------------------------------------------------------------------------------------------
 
 -- criar tabelas:
-create table automovel(placa varchar(30) primary key,
+CREATE table automovel(placa varchar(30) primary key,
 						marca varchar(30),
 						modelo varchar(30),
 						cor varchar(30));
 
-create table propriedade (cod_propriedade integer primary key,
+CREATE table propriedade (cod_propriedade integer primary key,
 							placa varchar(30),
 							cod_pessoa varchar(30));
 
-create table pessoa (cod_pessoa varchar(30) primary key,
+CREATE table pessoa (cod_pessoa varchar(30) primary key,
 						nome varchar(30),
 						endereco varchar(30),
 						sexo varchar(30));
@@ -33,14 +33,14 @@ VALUES
     ('P2', 'B', 'E2', 'F');
 	
 -- criar gatilho para a tabela auditoria:
-create table func_auditoria (operacao varchar(1),
+CREATE table func_auditoria (operacao varchar(1),
 								usuario varchar(30),
 								data timestamp,
 								cod_propriedade decimal(10,2));
 
 -- criar função que tenha sequência de comando:
 
-create function processo_audit_func() returns trigger as $$
+CREATE function processo_audit_func() returns trigger as $$
 begin
 	if (tg_op = 'DELETE') then
 		insert into func_auditoria values ('E', user, now(), old.cod_propriedade);
@@ -59,8 +59,8 @@ $$ language plpgsql;
 
 -- criar trigger funcionario_audit:
 
-create trigger funcionario_audit
-after insert or update or delete on propriedade
+CREATE trigger funcionario_audit
+after INSERT or UPDATE or DELETE on propriedade
 for each row execute procedure processo_audit_func();
 
 
@@ -71,6 +71,6 @@ VALUES
 	
 -------- TESTE --------
 -- inserir dados para testar o gatilho:
-insert into propriedade(cod_propriedade, placa, cod_pessoa)
+INSERT into propriedade(cod_propriedade, placa, cod_pessoa)
 VALUES (3, 'A3', 'P2');
 
