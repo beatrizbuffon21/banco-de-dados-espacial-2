@@ -1,17 +1,17 @@
 -- exerc1 ---------------------------------------------------------------------------------------------------------
 
 -- criar tabelas:
-create table empregado(num_emp integer primary key,
+CREATE table empregado(num_emp integer primary key,
 						nome_emp varchar(30),
 						salario decimal(10,2),
 						num_dept decimal(10,2));
 
-create table departamento (num_dept integer primary key,
+CREATE table departamento (num_dept integer primary key,
 							nome varchar(30),
 							ramal decimal(10,2));
 
 -- criar gatilho para a tabela auditoria:
-create table func_auditoria (operacao varchar(1),
+CREATE table func_auditoria (operacao varchar(1),
 								usuario varchar(30),
 								data timestamp,
 								num_dept decimal(10,2));
@@ -19,7 +19,7 @@ create table func_auditoria (operacao varchar(1),
 
 -- criar função que tenha sequência de comando:
 
-create function processo_audit_func() returns trigger as $$
+CREATE function processo_audit_func() returns trigger as $$
 begin
 	if (tg_op = 'DELETE') then
 		insert into func_auditoria values ('E', user, now(), old.num_dept);
@@ -38,8 +38,8 @@ $$ language plpgsql;
 
 -- criar trigger funcionario_audit:
 
-create trigger funcionario_audit
-after insert or update or delete on empregado
+CREATE trigger funcionario_audit
+after INSERT or UPDATE or DELETE on empregado
 for each row execute procedure processo_audit_func();
 
 -- inserir dados na tabela:
@@ -63,6 +63,6 @@ VALUES
 
 -------- TESTE --------
 -- inserir dados para testar o gatilho:
-insert into empregado(num_emp, nome_emp, salario, num_dept)
+INSERT into empregado(num_emp, nome_emp, salario, num_dept)
 VALUES (131, 'L Silveira', 3500, 28);
 
