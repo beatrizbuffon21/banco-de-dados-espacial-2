@@ -15,7 +15,7 @@ create table pessoa (cod_pessoa varchar(30) primary key,
 						endereco varchar(30),
 						sexo varchar(30));
 
--- inserir dados na tabela:
+-- inserir dados nas tabelas:
 
 INSERT INTO automovel (placa, marca, modelo, cor)
 VALUES
