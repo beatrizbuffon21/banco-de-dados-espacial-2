@@ -1,5 +1,4 @@
-# Exercício 1 - Banco de Dados Espacial
-
+# Exercício 1 - Aula 5
 Desenvolva um banco de dados que será formado pelas tabelas `bairro`, `quadra`, `supermercado`, `auditoria`.
 
 - `bairro(cod_bairro, nome, geom);`
