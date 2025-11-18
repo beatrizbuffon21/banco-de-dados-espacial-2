@@ -51,15 +51,10 @@ Repositório com materiais, anotações e exercícios da disciplina **Banco de D
 | 09/09/2025 | aula06 | Teórico-Prática | Procedimentos/funções definidas pelo usuário e gatilhos. |
 | 16/09/2025 | aula07 | Teórico-Prática | Procedimentos/funções definidas pelo usuário e gatilhos. |
 | 23/09/2025 | aula08 | Avaliação | Avaliação I. |
-| 30/09/2025 | aula09 | Teórico-Prática | Importação e exportação de dados espaciais. |
-| 07/10/2025 | aula10 | Teórico-Prática | Importação e exportação de dados espaciais. |
-| 14/10/2025 | aula11 | Teórico-Prática | Integração de banco de dados com SIG. |
-| 21/10/2025 | aula12 | Teórico-Prática | Integração de banco de dados com SIG. |
-| 11/11/2025 | aula13 | Teórico-Prática | Integração de banco de dados com SIG. |
-| 18/11/2025 | aula14 | Teórico-Prática | Integração de banco de dados com SIG. |
-| 25/11/2025 | aula15 | Avaliação | Avaliação II. |
-| 02/12/2025 | aula16 | Exame | Exame. |
-
+| 14/10/2025 | aula09 | Teórico-Prática | Importação e exportação de dados espaciais. |
+| 21/10/2025 | aula10 | Teórico-Prática | Importação e exportação de dados espaciais. |
+| 18/11/2025 | aula11 | Teórico-Prática | Integração de banco de dados com SIG. |
+| 25/11/2025 | aula12 | Avaliação | Avaliação II. |
 ---
 
 ### Ferramentas e Tecnologias
