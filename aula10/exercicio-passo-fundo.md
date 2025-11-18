@@ -52,5 +52,4 @@ Calcule a distância entre pares de farmácias, mostrando o código (`gid`) e o 
 
 Calcule a área do município de Passo Fundo em hectares.
 
-    h.nome ILIKE '%unimed%'; -- Filtra pelo hospital da Unimed (ajuste o critério se necessário)
-```
+Calcule a distância do hospital da Unimed em relação às farmácias. 
